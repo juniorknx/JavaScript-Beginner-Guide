@@ -1,0 +1,21 @@
+<input type="text" value="CLIQUE AQUI">
+
+<script>
+
+let input = document.querySelector('input');
+
+input.onblur = inputBlur; //referencia o nome da funcao 
+
+input.onfocus = inputFocus;
+
+function inputBlur(){ 
+    input.value = 'Digite seu nome';
+}
+
+function inputFocus(){
+    input.focus = 'Nao esquece de digitar';
+}
+
+//Ao clicar em cima do input e clicar fora, muda a frase do value
+
+</script>

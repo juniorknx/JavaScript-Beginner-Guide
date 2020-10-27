@@ -1,0 +1,21 @@
+<p>Passe o cursor</p>
+
+<script>
+
+const p = document.querySelector('p');
+
+p.onmouseover = logMouseOver;
+
+p.onmouseout = logMouseOut;
+
+function logMouseOver(){
+    p.innerHTML = 'PASSOU O MOUSE POR CIMA';
+}
+
+function logMouseOut(){
+    p.innerHTML = 'TIROU O MOUSE';    
+}
+
+// AO PASSAR O CURSOR EM CIMA DO PARAGRAFO, ALTERA O TEXTO
+
+</script>
