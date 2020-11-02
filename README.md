@@ -1,4 +1,4 @@
-# JavaScript e TypeScript 
+# JavaScript Guide
 
 
 
